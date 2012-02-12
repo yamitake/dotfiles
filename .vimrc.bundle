@@ -147,7 +147,7 @@ call vundle#rc()
   Bundle 'tpope/vim-rails'
 
   " Pydiction : Python用の入力補完
-  Bundle 'Pydiction'
+  "Bundle 'Pydiction'
 
   " ソースコード上のメソッド宣言、変数宣言の一覧を表示
   Bundle 'taglist.vim'
@@ -229,7 +229,6 @@ call vundle#rc()
 
   " ステータスラインに顔文字を表示
   " Bundle 'mattn/hahhah-vim'
-  let g:Powerline_symbols = 'fancy'
 
   " utillity
   Bundle 'L9'

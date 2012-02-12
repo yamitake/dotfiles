@@ -15,16 +15,8 @@ set nofoldenable
 set foldmethod=marker
 set history=2000
 set title
-set tags=tags
-setlocal omnifunc=syntaxcomplete#Complete
-source $VIMRUNTIME/macros/matchit.vim
-set laststatus=2
 set statusline=%n:\ %<%f\ %m%r%h%w[%{&fileformat}][%{has('multi_byte')&&\ &fileencoding!=''?&fileencoding:&encoding}]\ 0x%B=%b%=%l,%c\ %P
 
-"Rubyのオムニ補完を設定(ft-ruby-omni)
-let g:rubycomplete_buffer_loading = 1
-let g:rubycomplete_classes_in_global = 1
-let g:rubycomplete_rails = 1
 "<C-o>でomni補完
 inoremap <C-o> <C-x><C-o>
 compiler ruby
@@ -52,7 +44,3 @@ augroup END
 autocmd FileType javascript setlocal softtabstop=4
 autocmd FileType javascript setlocal shiftwidth=4
 autocmd FileType javascript setlocal expandtab
-
-filetype plugin indent on
-syntax enable
-

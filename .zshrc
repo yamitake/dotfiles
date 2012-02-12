@@ -5,9 +5,9 @@ source ~/dotfiles/.zshrc.base
 #
 # git 
 #
-#autoload bashcompinit
-#bashcompinit
-#source ~/dotfiles/.zshrc.git
+autoload bashcompinit
+bashcompinit
+source ~/dotfiles/.zshrc.git
 
 ## 環境毎固有の設定
 #

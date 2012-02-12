@@ -1,0 +1,6 @@
+
+* vimrc セットアップ時 プラグインインストール
+vim +BundleInstall +qall
+cd .vim/bundle/vimproc
+make -f make_mac.mak
+ln -s $HOME/.vim/bundle/vimproc/autoload/proc.so $HOME/.vim/autoload

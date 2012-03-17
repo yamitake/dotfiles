@@ -15,7 +15,7 @@ set nofoldenable
 set foldmethod=marker
 set history=2000
 set title
-set statusline=%n:\ %<%f\ %m%r%h%w[%{&fileformat}][%{has('multi_byte')&&\ &fileencoding!=''?&fileencoding:&encoding}]\ 0x%B=%b%=%l,%c\ %P
+" set statusline=%n:\ %<%f\ %m%r%h%w[%{&fileformat}][%{has('multi_byte')&&\ &fileencoding!=''?&fileencoding:&encoding}]\ 0x%B=%b%=%l,%c\ %P
 
 "<C-o>でomni補完
 inoremap <C-o> <C-x><C-o>
@@ -44,3 +44,4 @@ augroup END
 autocmd FileType javascript setlocal softtabstop=4
 autocmd FileType javascript setlocal shiftwidth=4
 autocmd FileType javascript setlocal expandtab
+

@@ -1,4 +1,10 @@
 #!/bin/sh
+case $1 in
+remove)
+    rm -f "~/.zshrc" "~/.vimrc" "~/.vim";;
+esac
+
+
 for file in ".zshrc" ".vimrc" ".vim"
 do
     src="$HOME/dotfiles/$file"

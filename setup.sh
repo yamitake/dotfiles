@@ -1,8 +1,8 @@
 #!/bin/sh
 case $1 in
 remove)
-    rm -f "~/.zshrc" "~/.vimrc" "~/.vim";;
-    exit
+    rm -f "~/.zshrc" "~/.vimrc" "~/.vim"
+    exit;;
 esac
 
 
